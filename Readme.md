@@ -7,3 +7,9 @@
     - core difference
         - list are mutable while tuple are immutable
         - in dictionaries we use key-value pair the keys are immutable
+
+
+- Kotlin mental mapping difference between *args and **args
+- Python	Kotlin
+- *args	    vararg
+- **kwargs	Map<String, Any>

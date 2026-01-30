@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1769577824413,
@@ -92,6 +92,38 @@
                 {
                     "date": 1769679678021,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n         - enumurate() to loop with index in list and tuple\n         - items()to loop with index in dictionaries\n     - core difference\n         - list are mutable while tuple are immutable\n-        - in dictionaries we use key value \n+        - in dictionaries we use key-value pair the keys are\n"
+                },
+                {
+                    "date": 1769707072625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,11 @@\n         - enumurate() to loop with index in list and tuple\n         - items()to loop with index in dictionaries\n     - core difference\n         - list are mutable while tuple are immutable\n-        - in dictionaries we use key-value pair the keys are\n+        - in dictionaries we use key-value pair the keys are immutable\n+\n+\n+        5️⃣ Kotlin mental mapping\n+Python\tKotlin\n+*args\tvararg\n+**kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707078208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n         - list are mutable while tuple are immutable\n         - in dictionaries we use key-value pair the keys are immutable\n \n \n-        5️⃣ Kotlin mental mapping\n+5️⃣ Kotlin mental mapping\n Python\tKotlin\n *args\tvararg\n **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707083273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n         - list are mutable while tuple are immutable\n         - in dictionaries we use key-value pair the keys are immutable\n \n \n-5️⃣ Kotlin mental mapping\n-Python\tKotlin\n+-5️⃣ Kotlin mental mapping\n+-Python\tKotlin\n *args\tvararg\n **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707089714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n         - list are mutable while tuple are immutable\n         - in dictionaries we use key-value pair the keys are immutable\n \n \n--5️⃣ Kotlin mental mapping\n--Python\tKotlin\n-*args\tvararg\n-**kwargs\tMap<String, Any>\n+- 5️⃣ Kotlin mental mapping\n+- Python\tKotlin\n+- *args\tvararg\n+- **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707096961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+- to create  code block jupyter environment ( escape+a)\n+\n+- key difference \n+    - to run itrations\n+        - enumurate() to loop with index in list and tuple\n+        - items()to loop with index in dictionaries\n+    - core difference\n+        - list are mutable while tuple are immutable\n+        - in dictionaries we use key-value pair the keys are immutable\n+\n+\n+- Kotlin mental mapping \n+- Python\tKotlin\n+- *args\t    vararg\n+- **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707103636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,23 +8,8 @@\n         - list are mutable while tuple are immutable\n         - in dictionaries we use key-value pair the keys are immutable\n \n \n-- Kotlin mental mapping \n+- Kotlin mental mapping difference between \n - Python\tKotlin\n - *args\t    vararg\n - **kwargs\tMap<String, Any>\n-- to create  code block jupyter environment ( escape+a)\n-\n-- key difference \n-    - to run itrations\n-        - enumurate() to loop with index in list and tuple\n-        - items()to loop with index in dictionaries\n-    - core difference\n-        - list are mutable while tuple are immutable\n-        - in dictionaries we use key-value pair the keys are immutable\n-\n-\n-- 5️⃣ Kotlin mental mapping\n-- Python\tKotlin\n-- *args\tvararg\n-- **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707111022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+- to create  code block jupyter environment ( escape+a)\n+\n+- key difference \n+    - to run itrations\n+        - enumurate() to loop with index in list and tuple\n+        - items()to loop with index in dictionaries\n+    - core difference\n+        - list are mutable while tuple are immutable\n+        - in dictionaries we use key-value pair the keys are immutable\n+\n+\n+- Kotlin mental mapping difference between *args and \n+- Python\tKotlin\n+- *args\t    vararg\n+- **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1769707117508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+- to create  code block jupyter environment ( escape+a)\n+\n+- key difference \n+    - to run itrations\n+        - enumurate() to loop with index in list and tuple\n+        - items()to loop with index in dictionaries\n+    - core difference\n+        - list are mutable while tuple are immutable\n+        - in dictionaries we use key-value pair the keys are immutable\n+\n+\n+- Kotlin mental mapping difference between *args and ***rgs\n+- Python\tKotlin\n+- *args\t    vararg\n+- **kwargs\tMap<String, Any>\n"
                 }
             ],
             "date": 1769577824413,
