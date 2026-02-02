@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 29,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1769577824413,
@@ -124,6 +124,42 @@
                 {
                     "date": 1769707117508,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+- to create  code block jupyter environment ( escape+a)\n+\n+- key difference \n+    - to run itrations\n+        - enumurate() to loop with index in list and tuple\n+        - items()to loop with index in dictionaries\n+    - core difference\n+        - list are mutable while tuple are immutable\n+        - in dictionaries we use key-value pair the keys are immutable\n+\n+\n+- Kotlin mental mapping difference between *args and ***rgs\n+- Python\tKotlin\n+- *args\t    vararg\n+- **kwargs\tMap<String, Any>\n"
+                },
+                {
+                    "date": 1770029932515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,38 +8,20 @@\n         - list are mutable while tuple are immutable\n         - in dictionaries we use key-value pair the keys are immutable\n \n \n-- Kotlin mental mapping difference between *args and ***rgs\n+- Kotlin mental mapping difference between *args and **args\n - Python\tKotlin\n - *args\t    vararg\n - **kwargs\tMap<String, Any>\n-- to create  code block jupyter environment ( escape+a)\n \n-- key difference \n-    - to run itrations\n-        - enumurate() to loop with index in list and tuple\n-        - items()to loop with index in dictionaries\n-    - core difference\n-        - list are mutable while tuple are immutable\n-        - in dictionaries we use key-value pair the keys are immutable\n \n \n-- Kotlin mental mapping difference between *args and \n-- Python\tKotlin\n-- *args\t    vararg\n-- **kwargs\tMap<String, Any>\n-- to create  code block jupyter environment ( escape+a)\n-\n-- key difference \n-    - to run itrations\n-        - enumurate() to loop with index in list and tuple\n-        - items()to loop with index in dictionaries\n-    - core difference\n-        - list are mutable while tuple are immutable\n-        - in dictionaries we use key-value pair the keys are immutable\n-\n-\n-- Kotlin mental mapping difference between \n-- Python\tKotlin\n-- *args\t    vararg\n-- **kwargs\tMap<String, Any>\n+Quick reference table\n+Thing\tConvention\tExample\n+Variable\tsnake_case\ttotal_count\n+Function\tsnake_case\tfetch_data()\n+Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n+Class\tPascalCase\tUserService\n+Module\tsnake_case\tauth_helper.py\n+Package\tlowercase\tutils/\n+Private\t_name\t_cache\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770029939155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n \n \n \n Quick reference table\n-Thing\tConvention\tExample\n+Thing\t   Convention\tExample\n Variable\tsnake_case\ttotal_count\n Function\tsnake_case\tfetch_data()\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\tPascalCase\tUserService\n"
+                },
+                {
+                    "date": 1770029944866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,8 @@\n Thing\t   Convention\tExample\n Variable\tsnake_case\ttotal_count\n Function\tsnake_case\tfetch_data()\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n-Class\tPascalCase\tUserService\n-Module\tsnake_case\tauth_helper.py\n+Class\t    PascalCase\tUserService\n+Module.  \tsnake_case\tauth_helper.py\n Package\tlowercase\tutils/\n Private\t_name\t_cache\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770029951422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,11 @@\n \n \n Quick reference table\n Thing\t   Convention\tExample\n-Variable\tsnake_case\ttotal_count\n+Variable\tsnake_case\t       total_count\n Function\tsnake_case\tfetch_data()\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\t    PascalCase\tUserService\n Module.  \tsnake_case\tauth_helper.py\n-Package\tlowercase\tutils/\n\\ No newline at end of file\n-Private\t_name\t_cache\n+Package\t   lowercase\tutils/\n+Private\t   _name\t_cache\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770029963374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,11 @@\n \n \n Quick reference table\n Thing\t   Convention\tExample\n-Variable\tsnake_case\t       total_count\n-Function\tsnake_case\tfetch_data()\n+Variable\tsnake_case\t        total_count\n+Function\tsnake_case\t        fetch_data()\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n-Class\t    PascalCase\tUserService\n-Module.  \tsnake_case\tauth_helper.py\n-Package\t   lowercase\tutils/\n+Class\t    PascalCase\t        UserService\n+Module.  \tsnake_case\t        auth_helper.py\n+Package\t   lowercase\t        utils/\n Private\t   _name\t_cache\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770029968952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\t    PascalCase\t        UserService\n Module.  \tsnake_case\t        auth_helper.py\n Package\t   lowercase\t        utils/\n-Private\t   _name\t_cache\n\\ No newline at end of file\n+Private\t   _name\t            _cache \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770029985627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\t    PascalCase\t        UserService\n Module.  \tsnake_case\t        auth_helper.py\n Package\t   lowercase\t        utils/\n-Private\t   _name\t            _cache \n\\ No newline at end of file\n+Private\t   _name\t            _cache , \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770031838303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\t    PascalCase\t        UserService\n Module.  \tsnake_case\t        auth_helper.py\n Package\t   lowercase\t        utils/\n-Private\t   _name\t            _cache , \n\\ No newline at end of file\n+Private\t   _name\t            __ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770031843841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n Constant\tUPPER_SNAKE_CASE\tTIMEOUT_SEC\n Class\t    PascalCase\t        UserService\n Module.  \tsnake_case\t        auth_helper.py\n Package\t   lowercase\t        utils/\n-Private\t   _name\t            __ \n\\ No newline at end of file\n+Private\t   __name\t            __cache \n\\ No newline at end of file\n"
                 }
             ],
             "date": 1769577824413,

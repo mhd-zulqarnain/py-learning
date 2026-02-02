@@ -13,3 +13,15 @@
 - Python	Kotlin
 - *args	    vararg
 - **kwargs	Map<String, Any>
+
+
+
+Quick reference table
+Thing	   Convention	Example
+Variable	snake_case	        total_count
+Function	snake_case	        fetch_data()
+Constant	UPPER_SNAKE_CASE	TIMEOUT_SEC
+Class	    PascalCase	        UserService
+Module.  	snake_case	        auth_helper.py
+Package	   lowercase	        utils/
+Private	   __name	            __cache 
