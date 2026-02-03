@@ -1,0 +1,186 @@
+{
+    "sourceFile": "nlp/notes.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 42,
+            "patches": [
+                {
+                    "date": 1770099024844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1770099033303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-- \n\\ No newline at end of file\n+- \n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099043445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+- In NLP we first do the \n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099060891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n-- In NLP we first do the \n+- In NLP we first tokenize the paragraph(corpus)\n \n \n-stemming\n-- \n-\n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099066834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n-- In NLP we first tokenize the paragraph(corpus)\n+- In NLP we first tokenize the paragraph(corpus) \n \n \n+\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099072184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n - In NLP we first tokenize the paragraph(corpus) \n+    \n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099079176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n - In NLP we first tokenize the paragraph(corpus) \n-    \n+  -   using \n \n \n \n+\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099085262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n - In NLP we first tokenize the paragraph(corpus) \n-  -   using \n+  -   using tokenize lib\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099093558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n - In NLP we first tokenize the paragraph(corpus) \n-  -   using tokenize lib\n+  -   using tokenize library\n+- then\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099106681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n-- then\n+- then we appl\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099117526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+- In NLP we first tokenize the paragraph(corpus) \n+  -   using tokenize library\n+- then we apply stemming to \n+\n+\n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099132807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,8 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n-- then we apply stemming to \n+- then we apply stemming to get root of the word\n \n \n \n \n-stemming\n-- In NLP we first tokenize the paragraph(corpus) \n-  -   using tokenize library\n-- then we appl\n-\n-\n-\n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099139680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n-- then we apply stemming to get root of the word\n+- then we apply stemming to get root of the word( eaten->eat)\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099150503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n+  - before it we remove\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099174694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n+  - to do that we use stemming or lemmatization \n+    -   \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099180057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do that we use stemming or lemmatization \n-    -   \n+    -  library() \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099185903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+- In NLP we first tokenize the paragraph(corpus) \n+  -   using tokenize library\n+- then we apply stemming to get root of the word( eaten->eat)\n+  - to do that we use stemming or lemmatization \n+    -  library() \n+  - before it we remove\n+\n+\n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099228126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,11 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n-  - to do that we use stemming or lemmatization \n-    -  library() \n+  - to do so that we use stemming or lemmatization \n+    -  libraries( ) \n   - before it we remove\n \n \n \n \n-stemming\n-- In NLP we first tokenize the paragraph(corpus) \n-  -   using tokenize library\n-- then we apply stemming to get root of the word( eaten->eat)\n-  - to do that we use stemming or lemmatization \n-    -  library() \n-  - before it we remove\n-\n-\n-\n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099415321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n-    -  libraries( ) \n+    -  libraries( PorterStemmer,) \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099422141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n-    -  libraries( PorterStemmer,) \n+    -  libraries( PorterStemmer,RegexpStemmer) \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099434929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n-    -  libraries( PorterStemmer,RegexpStemmer) \n+    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer) \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099464223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n - In NLP we first tokenize the paragraph(corpus) \n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n-    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer) \n+    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n   - before it we remove\n \n \n \n"
+                },
+                {
+                    "date": 1770099482784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-  - before it we remove\n+        - before it we remove\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099495803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before it we remove\n+        - before stemming w\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099502887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before stemming w\n+        - before Lemmatizer\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099511287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+- In NLP we first tokenize the paragraph(corpus) \n+  -   using tokenize library\n+- then we apply stemming to get root of the word( eaten->eat)\n+  - to do so that we use stemming or lemmatization \n+    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n+        - before Lemmatize we need to remove the stop word\n+\n+\n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099518479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,21 +2,10 @@\n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before Lemmatize we need to remove the stop word\n+        - before Lemmatize we need to remove the stop word(he,could,)\n \n \n \n \n-stemming\n-- In NLP we first tokenize the paragraph(corpus) \n-  -   using tokenize library\n-- then we apply stemming to get root of the word( eaten->eat)\n-  - to do so that we use stemming or lemmatization \n-    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before Lemmatizer\n-\n-\n-\n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099532488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n   -   using tokenize library\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before Lemmatize we need to remove the stop word(he,could,)\n+        - before Lemmatize we need to remove the stop word(he,could,we)\n+            \n \n \n \n \n"
+                },
+                {
+                    "date": 1770099543822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-            \n+            - and we need to men\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099550477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-            - and we need to men\n+            - to remove we need to men\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099560844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-            - to remove we need to men\n+            - to remove we need to catog\n \n \n \n \n"
+                },
+                {
+                    "date": 1770099571339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-            - to remove we need to catog\n+            \n \n \n \n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099587008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-            \n+        - in \n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099599587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+- In NLP we first tokenize the paragraph(corpus) \n+  -   using tokenize library\n+- then we apply stemming to get root of the word( eaten->eat)\n+  - to do so that we use stemming or lemmatization \n+    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n+        - before Lemmatize we need to remove the stop word(he,could,we)\n+        - in Lemmatizatio we need to \n+\n+\n+\n+stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099606870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,20 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-        - in Lemmatizatio we need to \n+        - in Lemmatizatio we need to categories words as \n \n \n \n-stemming\n-- In NLP we first tokenize the paragraph(corpus) \n-  -   using tokenize library\n-- then we apply stemming to get root of the word( eaten->eat)\n-  - to do so that we use stemming or lemmatization \n-    -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n-        - before Lemmatize we need to remove the stop word(he,could,we)\n-        - in \n-\n-\n-\n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099613400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-        - in Lemmatizatio we need to categories words as \n+        - in Lemmatizatio we need to categories words as noun,pronoun or \n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099627438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-        - in Lemmatizatio we need to categories words as noun,pronoun or \n+        - in Lemmatizatio we need to categories words as noun,pronoun or part of speech to work properly.\n+        \n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099646429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n         - in Lemmatizatio we need to categories words as noun,pronoun or part of speech to work properly.\n-        \n+            - for part of speech catogir\n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099657310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n         - in Lemmatizatio we need to categories words as noun,pronoun or part of speech to work properly.\n-            - for part of speech catogir\n+            - for part of speech categorization we use library\n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099695154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n         - in Lemmatizatio we need to categories words as noun,pronoun or part of speech to work properly.\n-            - for part of speech categorization we use library\n+            - for part of speech categorization we use pos_tag.pos\n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099702513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n - then we apply stemming to get root of the word( eaten->eat)\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n-        - in Lemmatizatio we need to categories words as noun,pronoun or part of speech to work properly.\n-            - for part of speech categorization we use pos_tag.pos\n+        - in Lemmatizatio we need to tag words as noun,pronoun or part of speech to work properly.\n+            - for part of speech tagging we use pos_tag.pos\n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099707912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n         - in Lemmatizatio we need to tag words as noun,pronoun or part of speech to work properly.\n-            - for part of speech tagging we use pos_tag.pos\n+            - for part of speech tagging we use nltk.pos\n \n \n \n stemming\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1770099715642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   - to do so that we use stemming or lemmatization \n     -  libraries( PorterStemmer,RegexpStemmer,snowballsstemmer ,WordNetLemmatizer) \n         - before Lemmatize we need to remove the stop word(he,could,we)\n         - in Lemmatizatio we need to tag words as noun,pronoun or part of speech to work properly.\n-            - for part of speech tagging we use nltk.pos\n+            - for part of speech tagging we use nltk.post_tag method\n \n \n \n stemming\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1770099024844,
+            "name": "Commit-0",
+            "content": "- "
+        }
+    ]
+}
